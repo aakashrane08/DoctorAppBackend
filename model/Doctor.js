@@ -23,7 +23,7 @@ const doctorSchema = mongoose.Schema(
     },
     specialization: {
       type: String,
-      enum: ["ENT", "GYNO", "ORTHO", "CARDIO", "DENTAL"],
+      enum: ["Dentist", "Gynecologist", "Orthopedist", "Cardiologist", "Neutrologist"],
       require: true,
     },
     qualification: {
